@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tumelo Nzondo's Portfolio</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1e1e1e;
+            color: #f5f5f5;
+        }
+
+        header {
+            background-color: #333;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #f5f5f5;
+            margin: 0;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: #f5f5f5;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background-color: #2e2e2e;
+            border-radius: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #ff6f61;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #ccc;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .skills ul, .programming-skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills ul li, .programming-skills ul li {
+            margin-bottom: 5px;
+        }
+
+        .contact-info {
+            text-align: center;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #f5f5f5;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Tumelo Nzondo</h1>
+    <nav>
+        <ul>
+            <li><a onclick="showSection('about')">About Me</a></li>
+            <li><a onclick="showSection('education')">Education</a></li>
+            <li><a onclick="showSection('skills')">Skills</a></li>
+            <li><a onclick="showSection('contact')">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="about" class="content">
+    <h2>About Me</h2>
+    <p>Hello! My name is Tumelo Nzondo. I attended Tshwane University of Technology, where I studied Information Technology specializing in Intelligent Industrial Systems. During my studies, I developed a strong foundation in various programming languages, including C++, and gained hands-on experience in hardware programming using Arduino. I also acquired a deep understanding of software engineering principles, data structures, and algorithms, which have equipped me with the skills to tackle complex technical challenges.</p>
+    <p>Despite being unable to complete my diploma due to my course being phased out, leaving me with a single module, my passion for technology remained undiminished. I decided to proactively seek opportunities to grow my knowledge and skills. This led me to enroll in an online software engineering scholarship, where I am currently learning HTML, CSS, and JavaScript to create simple web pages. This program has not only enhanced my technical abilities but also fostered my creativity and problem-solving skills.</p>
+    <p>Throughout my academic journey and current scholarship, I have consistently demonstrated a commitment to continuous learning and excellence. My experiences have taught me the importance of adaptability, perseverance, and collaboration. I am particularly excited about the potential of web development and app development to solve real-world problems and improve people's lives. I am eager to bring my enthusiasm for technology, combined with my technical skills and dedication, to a fullstack learnership where I can contribute meaningfully and continue to grow as a software developer.</p>
+    <p>In addition to my technical skills, I possess strong communication and teamwork abilities, which I believe are crucial for successful collaboration in any professional setting. I am confident that my background, combined with my passion for technology and continuous improvement, makes me a strong candidate for this learnership opportunity. I am genuinely looking forward to the chance to contribute to innovative projects and make a positive impact in the field of software development.</p>
+</section>
+
+<section id="education" class="content hidden">
+    <h2>Education</h2>
+    <div class="education">
+        <table>
+            <tr>
+                <td class="label">High School Attended:</td>
+                <td class="content"> Setumo High School </td>
+            </tr>
+            <tr>
+                <td class="label">Highest Grade Passed:</td>
+                <td class="content">Grade 12</td>
+            </tr>
+            <tr>
+                <td class="label">Certificate:</td>
+                <td class="content">Bachelor Degree</td>
+            </tr>
+            <tr>
+                <td class="label">Subjects Passed:</td>
+                <td class="content">
+                    Mathematics, Physical Sciences, Life Sciences, Afrikaans Second Additional, English First Additional Language, Setswana Home Language, Life Orientation
+                </td>
+            </tr>
+            <tr>
+                <td class="label">Year Passed:</td>
+                <td class="content">2014</td>
+            </tr>
+            <tr>
+                <td class="label"> Course:</td>
+                <td class="content">National Diploma in Information Technology in Intelligent Industrial Systems</td>
+            </tr>
+            <tr>
+                <td class="label">Year Started:</td>
+                <td class="content">2017</td>
+            </tr>
+            <tr>
+                <td class="label">Year of Completion:</td>
+                <td class="content">Not completed</td>
+            </tr>
+            <tr>
+                <td class="label">Major Subjects:</td>
+                <td class="content">
+                    Software Engineering, Database Systems, Web Development, Data Structures and Algorithms, Computer Networks, App Development, Mobile Development
+                </td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+<section id="skills" class="content hidden">
+    <h2>Skills</h2>
+    <div class="skills">
+        <ul>
+            <li>Communication</li>
+            <li>Teamwork</li>
+            <li>Problem-solving</li>
+            <li>Time management</li>
+            <li>Adaptability</li>
+            <li>Critical Thinking</li>
+            <li>Leadership</li>
+            <li>Creativity</li>
+            <li>Organizational Skills</li>
+            <li>Attention to Detail</li>
+        </ul>
+    </div>
+
+    <h2>Programming Skills</h2>
+    <div class="programming-skills">
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+           
+            <li>C++</li>
+            <li>SQL</li>
+            <li>Embarcadero</li>
+            <li>Linux</li>
+            <li>Version Control (Git)</li>
+           
+            
+        </ul>
+    </div>
+</section>
+
+<section id="contact" class="content hidden">
+    <h2>Contact Me</h2>
+    <div class="contact-info">
+        <p>Email   : tumelonzondo@gmail.com</p>
+	 <p>Email 2: tumelonzondo@gmail.com</p>
+        <p>Phone   : 0827386670</p>
+	 <p>Linkedin: www.linkedin.com/in/tumelo-nzondo-549771284</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Tumelo Nzondo. All Rights Reserved.</p>
+</footer>
+
+<script>
+    function showSection(sectionId) {
+        var sections = document.querySelectorAll('section');
+        sections.forEach(function (section) {
+            section.classList.add('hidden');
+        });
+        document.getElementById(sectionId).classList.remove('hidden');
+    }
+</script>
+
+</body>
+</html>
